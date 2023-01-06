@@ -13,13 +13,15 @@
 .text-primary {
     color: #FD6E0A;
 }
-.btn-design{
+
+.btn-design {
     display: flex;
     gap: 20px;
 
 }
-.btn-second{
-    color:#FD6E0A;
+
+.btn-second {
+    color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
     height: 64px;
@@ -27,8 +29,8 @@
     border-color: #FD6E0A;
     padding: 18px 35px;
     border-radius: 10px;
-    
-    
+
+
 }
 
 .btn-primary {
@@ -212,7 +214,8 @@ section {
     font-size: 30px;
     color: #474747;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
 }
 
@@ -235,10 +238,46 @@ section {
 .item-description {
     color: #757575;
 }
-.resume-btn{
-    
+
+.resume-btn {
+
     margin-top: 50px;
     margin-bottom: 130;
     text-align: center;
 
+}
+
+/* Contact Information */
+.Contact-Info {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding:130px 230px;
+}
+
+.connect-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 28px;
+    
+}
+
+.connet-description {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Contact-Info input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+
+}
+.Contact-Info a{
+    text-decoration: none;
 }
